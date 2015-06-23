@@ -1,6 +1,6 @@
 package model;
 
-public class GameBoard {
+public abstract class GameBoard {
 
     public static final int NUMBER_OF_CELL = 3;
 
