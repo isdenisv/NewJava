@@ -6,10 +6,10 @@ import view.ConsoleView;
 public class Helper {
 
     public static boolean checkXCoordinate(int x) {
-        if (x < 0 || x >= GameBoard.NUMBER_OF_CELL) {
+        if (x < 0 || x >= GameBoard.NUMBER_OF_CELL) [{
             ConsoleView.sayAboutError();
             return false;
-        }
+        }]
         return true;
     }
 
