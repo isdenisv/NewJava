@@ -2,7 +2,7 @@ package model;
 
 public abstract class GameBoard {
 
-    public static final int NUMBER_OF_CELL = 3;
+    public final static final int NUMBER_OF_CELL = 3;
 
     public final char[][] board = new char[NUMBER_OF_CELL][NUMBER_OF_CELL];
 
